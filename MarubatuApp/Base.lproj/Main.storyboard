@@ -50,17 +50,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcd-W6-ulo">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <state key="normal" title="ヒント"/>
+                                <connections>
+                                    <action selector="tappedHintButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jmw-ml-u8Y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bnH-xo-vJU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="22V-lc-81U"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xqs-7q-YYr" secondAttribute="trailing" constant="20" id="635-2s-PPt"/>
                             <constraint firstItem="Xqs-7q-YYr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="LsW-i9-93H"/>
+                            <constraint firstItem="dcd-W6-ulo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NC0-Dv-R6p"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bdy-xb-42m" secondAttribute="bottom" constant="20" id="O49-7x-6RI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bnH-xo-vJU" secondAttribute="bottom" constant="20" id="Ofn-kG-8OQ"/>
+                            <constraint firstItem="dcd-W6-ulo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UgJ-Ib-7TR"/>
                             <constraint firstItem="Bdy-xb-42m" firstAttribute="height" secondItem="bnH-xo-vJU" secondAttribute="height" id="XKT-6E-d8V"/>
                             <constraint firstItem="Xqs-7q-YYr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Zzd-1h-X8O"/>
                             <constraint firstItem="Bdy-xb-42m" firstAttribute="leading" secondItem="bnH-xo-vJU" secondAttribute="trailing" constant="8" id="cGF-fl-NKI"/>
+                            <constraint firstItem="dcd-W6-ulo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cUk-70-dU9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bdy-xb-42m" secondAttribute="trailing" constant="20" id="kyl-Ei-Klo"/>
                             <constraint firstItem="Bdy-xb-42m" firstAttribute="width" secondItem="bnH-xo-vJU" secondAttribute="width" id="xrc-Wb-Aag"/>
                         </constraints>
@@ -72,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-58" y="112"/>
+            <point key="canvasLocation" x="-59.420289855072468" y="111.83035714285714"/>
         </scene>
     </scenes>
 </document>
